@@ -219,8 +219,6 @@ height: 570px;
   justify-content: center;
 }
 .svarshik__about {
-width: 410px;
-height: 560px;
   opacity: 0.7;
   margin-bottom: 20px;
   border-radius: 10px;
@@ -478,7 +476,7 @@ color: #000000;
   font-style: normal;
   font-weight: 800;
   font-size: 38px;
-  line-height: 27px;
+  line-height: 38px;
   /* or 97% */
   text-align: center;
   text-transform: uppercase;
@@ -630,6 +628,7 @@ color: #FFFFFF;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 20px;
 }
 .materials {
   display: none;
@@ -639,6 +638,20 @@ color: #FFFFFF;
 }
 .links_social__footer {
   flex-direction: column;
+  justify-content: baseline;
+  align-items: baseline;
+}
+address {
+  margin-right: 0;
+}
+.galka-icon {
+  display: none;
+}
+.li_list__uslugi {
+  width: 100%;
+}
+.bg_cont_boxes__uslugd {
+  padding: 10px;
 }
 .wrap-cont__footer {
   flex-direction: column;
@@ -648,9 +661,26 @@ color: #FFFFFF;
 .logo-footer {
   margin: 0;
 }
+.facebook-svg__fotter {
+  margin: 0;
+}
+.wrap_wrap_cont__footer {
+  flex-direction: column;
+}
 .map_link__lokacia {
-  max-width: 400px;
-  max-height: 400px;
+width: 100%;
+height: 100%;
+}
+footer {
+  padding: 0;
+}
+.ulica__footer {
+  text-align: center;
+  justify-content: center;
+}
+.number__footer {
+  text-align: center;
+  justify-content: center;
 }
 .main-text {
   padding-left: 0;
