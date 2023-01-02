@@ -190,7 +190,6 @@ color: #000000;
   text-transform: uppercase;
   color: #FFFFFF;
 margin: 0 auto;
-width: 404px;
 margin-bottom: 20px;
 }
 .wrap_cont_text_img__header {
@@ -219,6 +218,7 @@ height: 570px;
   justify-content: center;
 }
 .svarshik__about {
+  max-width: 500px;
   opacity: 0.7;
   margin-bottom: 20px;
   border-radius: 10px;
@@ -450,8 +450,8 @@ top: 0;
   align-items: center;
   position: relative;
   overflow: hidden;
-  width:330px;
-  height: 330px;
+  width:320px;
+  height: 320px;
   background-color: #FFFFFF;
   border-radius: 10px;
   font-family: 'Poppins';
@@ -596,24 +596,30 @@ color: #FFFFFF;
   align-items: center;
   justify-content: center;
 }
-@media screen and (max-width:1099px) {
+@media screen and (min-width:481px) and (max-width:1200px) {
   .cont_img__header {
     display: none;
   }
   .best_options__header li:nth-child(1) {
-    padding-left: 0px;
-    margin-bottom: 5px;
+    padding-left: 10px;
+    margin-bottom: 20px;
 }
 .best_options__header li:nth-child(2) {
-    padding-left: 0px;
-    margin-bottom: 5px;
+    padding-left: 20px;
+    margin-bottom: 20px;
 }
 .best_options__header li:nth-child(3) {
-    padding-left: 0px;
+    padding-left: 30px;
+}
+.main_text__header {
+  font-size: 36px;
 }
 .main-text {
   justify-content: center;
   align-items: center;
+}
+.map__lokacia {
+  width: 100%;
 }
 .container {
   padding: 20px 20px;
@@ -638,14 +644,15 @@ color: #FFFFFF;
 }
 .links_social__footer {
   flex-direction: column;
-  justify-content: baseline;
-  align-items: baseline;
+  justify-content: center;
+  align-items: center;
 }
 address {
   margin-right: 0;
 }
 .galka-icon {
-  display: none;
+max-width: 80px;
+margin-right: 10px;
 }
 .li_list__uslugi {
   width: 100%;
@@ -669,7 +676,10 @@ address {
 }
 .map_link__lokacia {
 width: 100%;
-height: 100%;
+height: 300px;
+}
+.cont_img_frame__lokacia {
+  width: 100%;
 }
 footer {
   padding: 0;
@@ -695,4 +705,128 @@ footer {
     justify-content: center;
     align-items:center;
   }
+  }
+  @media screen and (max-width:480px) {
+    .container {
+      width: 100%;
+      max-width: 450px;
+      padding: 0 15px;
+    }
+        .logo-dark {
+          padding: 0;
+        }
+        .list_nav {
+          flex-wrap: wrap;
+          justify-content: center;
+        }
+                .main_text__header {
+                  font-size: 24px;
+                }
+.main-text {
+  padding: 0;
+} 
+.wrap_cont_text_img__header {
+  display: none;
+}
+.svarshik__about {
+  width: 90%;
+}
+.svarochniy-apparat {
+  display: none;
+}
+.li_best_options__header {
+  font-size: 18px;
+}
+.best_options__header li:nth-child(1) {
+  padding: 0;
+}
+.best_options__header li:nth-child(2) {
+  padding: 0;
+}
+.best_options__header li:nth-child(3) {
+  padding: 0;
+}
+.cont_img__header {
+  display: none;
+}
+.nav_cont__header {
+  flex-direction: column;
+  margin: 0;
+}
+.wrap_blok_img__about {
+  flex-direction: column;
+}
+.galka-icon {
+  width: 50px;
+  height: 60px;
+  margin-right: 10px;
+}
+.li_true__about {
+  font-size: 20px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+.svarshik_ugol {
+  display: none;
+}
+.message_tutay {
+  display: none;
+}
+.map_link__lokacia {
+  width: 100%;
+}
+.cont_wrap__lokacia {
+  flex-direction: column;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.text_adress__lokacia {
+  font-size: 24px;
+}
+.text__materials {
+  font-size: 30px;
+  line-height: 30px;
+}
+.list_metals__materials {
+  gap: 20px;
+  flex-direction: column;
+}
+.lsit_boxes__ulugi {
+  gap: 10px;
+  flex-direction: column;
+}
+.li_list__uslugi {
+  width: 100%;
+}
+.bg_cont_boxes__uslugd {
+  padding: 15px;
+}
+.wrap-cont__footer {
+  flex-direction: column;
+}
+.wrap_wrap_cont__footer {
+  flex-direction: column;
+}
+address {
+  margin: 0;
+  text-align: center;
+}
+.logo-footer {
+  margin: 0;
+}
+.links_social__footer {
+  flex-direction: column;
+}
+.facebook-svg__fotter {
+  margin: 0;
+  width: 100%;
+}
+.number__footer {
+  justify-content: center;
+  font-size: 20px;
+}
+.ulica__footer {
+  font-size: 20px;
+}
   }
